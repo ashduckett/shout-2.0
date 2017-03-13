@@ -11,4 +11,7 @@ chdir($old_path);
 echo '5';
 
 print_r($output, true);
+echo '6';
 echo "<pre>$output</pre>";
+
+echo '7';
