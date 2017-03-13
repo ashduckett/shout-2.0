@@ -8,6 +8,8 @@
     // Returns ashduckett. ashduckett is allowed to do this stuff.
     $user = shell_exec('whoami 2>&1');
     
+    $dir = shell_exec('$PWD 2>&1');
+    error_log($dir, 3, 'errr.log');
     
     error_log(print_r($user, true), 3, 'errr.log');
     
