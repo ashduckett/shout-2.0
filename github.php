@@ -4,6 +4,8 @@
     $output = null;
     
     $output = shell_exec('git pull 2>&1');
+    
+    // Returns ashduckett. ashduckett is allowed to do this stuff.
     $user = shell_exec('whoami 2>&1');
     
     
