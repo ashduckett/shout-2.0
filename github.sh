@@ -2,7 +2,7 @@
 
 
 # User specific aliases and functions
-SSH_ENV=$HOME/.ssh/environment
+SSH_ENV=../../.ssh/environment
 
 # start the ssh-agent
 function start_agent {
